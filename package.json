@@ -1,0 +1,26 @@
+{
+  "name": "breakout_web",
+  "version": "1.0.0",
+  "description": "A simple breakout game in javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EMendozaSPX/breakout_web.git"
+  },
+  "author": "Euan Mendoza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EMendozaSPX/breakout_web/issues"
+  },
+  "homepage": "https://github.com/EMendozaSPX/breakout_web#readme",
+  "devDependencies": {
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.0"
+  }
+}
